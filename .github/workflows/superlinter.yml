@@ -19,6 +19,4 @@ jobs:
         uses: super-linter/super-linter@v5
         env:
           VALIDATE_PYTHON: true
-          LINTER_RULES_PATH: /
-          PYTHON_BLACK_CONFIG_FILE: /dev/null
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
